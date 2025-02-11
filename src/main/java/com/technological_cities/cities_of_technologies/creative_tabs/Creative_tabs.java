@@ -22,7 +22,7 @@ public class Creative_tabs {
                         p_259752_.accept(Basic_item.fps_item.get());
                         p_259752_.accept(Basic_item.item_test.get());
                         p_259752_.accept(Basic_item.seconditem_test.get());
-                        p_259752_.accept(Basic_block.tt.get());
+                        p_259752_.accept(Basic_block.TELLURIUM_BLOCK.get());
                         p_259752_.accept(Basic_item.tellure_ingot.get());
                     })
                     .build());

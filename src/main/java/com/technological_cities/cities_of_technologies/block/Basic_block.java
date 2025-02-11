@@ -19,8 +19,13 @@ public class Basic_block {
             DeferredRegister.create(ForgeRegistries.BLOCKS, technological_cities.MODID);
 
     //début d'un block
-    public static final RegistryObject<Block> SAPPHIRE_BLOCK = registriesBlock("sapphire_block",)
+    public static final RegistryObject<Block> TELLURIUM_BLOCK = registriesBlock("tellurium_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).explosionResistance(10)));
     //fin d'un block
+
+
+
+
 
     private static <T extends Block> RegistryObject<T> registriesBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
