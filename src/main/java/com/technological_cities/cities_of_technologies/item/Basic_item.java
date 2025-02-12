@@ -14,10 +14,11 @@ public class Basic_item {
     public static final RegistryObject<Item> fps_item = ITEMS.register("fps", () -> new Item(new Item.Properties()));
     //fin d'un item
 
+    //stack d'item
     public static final RegistryObject<Item> item_test = ITEMS.register("item_test", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> seconditem_test = ITEMS.register("seconditem_test", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> tellure_ingot = ITEMS.register("tellure_ingot", () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> tellurium_ingot = ITEMS.register("tellurium_ingot", () -> new Item(new Item.Properties()));
+    //fin stack d'item
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

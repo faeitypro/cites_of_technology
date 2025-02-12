@@ -20,12 +20,12 @@ public class Basic_block {
 
     //début d'un block
     public static final RegistryObject<Block> TELLURIUM_BLOCK = registriesBlock("tellurium_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).explosionResistance(10)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).strength(3.0F, 6.0F)));
     //fin d'un block
 
+    //stack de block
 
-
-
+    //fin stak de block
 
     private static <T extends Block> RegistryObject<T> registriesBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

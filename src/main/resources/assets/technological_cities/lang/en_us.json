@@ -2,9 +2,10 @@
   "item.technological_cities.fps": "FPS",
   "item.technological_cities.item_test": "item test",
   "item.technological_cities.seconditem_test": "second item test",
-  "item.technological_cities.tellure_ingot": "tellure ingot",
+  "item.technological_cities.tellurium_ingot": "tellurium ingot",
 
   "block.technological_cities.tellurium_block": "Block Of Tellurium",
+  "block.technological_cities.tellurium_ore": "Tellurium Ore",
 
   "createativetab.technological_cities": "technological cities creative tab"
 }
