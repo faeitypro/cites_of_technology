@@ -18,6 +18,11 @@ public class Basic_item {
     public static final RegistryObject<Item> item_test = ITEMS.register("item_test", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> seconditem_test = ITEMS.register("seconditem_test", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> tellurium_ingot = ITEMS.register("tellurium_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Raw_lead = ITEMS.register("raw_lead", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> lead_Ingot = ITEMS.register("lead_ingot", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Raw_Lead_Plate = ITEMS.register("raw_lead_plate", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Renforced_Lead_Plate = ITEMS.register("reinforced_lead_plate", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> Armored_Lead_Safe = ITEMS.register("armored_lead_safe", () -> new Item(new Item.Properties()));
     //fin stack d'item
 
     public static void register(IEventBus eventBus){
