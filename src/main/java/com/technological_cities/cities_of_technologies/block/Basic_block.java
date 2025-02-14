@@ -42,5 +42,3 @@ public class Basic_block {
     }
 
 }
-// premier SAPPHIRE_BLOCK = TELLURE_BLOCK
-//second   saphire_block = tellure_block
