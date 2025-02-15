@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients":[
+    {
+      "item": "technological_cities:tellurium_block"
+    }
+  ],
+  "result": {
+    "item": "technological_cities:tellurium_ingot",
+    "count": 9
+  }
+}

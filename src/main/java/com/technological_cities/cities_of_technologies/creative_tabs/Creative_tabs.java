@@ -31,6 +31,7 @@ public class Creative_tabs {
 
 
                         p_259752_.accept(Basic_block.TELLURIUM_BLOCK.get());
+                        p_259752_.accept(Basic_block.LEAD_ORE.get());
 
                     })
                     .build());

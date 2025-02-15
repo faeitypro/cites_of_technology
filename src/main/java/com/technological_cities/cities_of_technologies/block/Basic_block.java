@@ -24,8 +24,11 @@ public class Basic_block {
     //fin d'un block
 
     //stack de block
-
+    public static final RegistryObject<Block> LEAD_ORE = registriesBlock("lead_ore",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     //fin stak de block
+
+
 
     private static <T extends Block> RegistryObject<T> registriesBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
