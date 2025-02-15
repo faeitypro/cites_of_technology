@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rools": 3.0,
+      "condition": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "technological_cities:raw_lead"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "technological_cities:item/raw_lead"
+}

@@ -2,10 +2,12 @@ package com.technological_cities.cities_of_technologies.block;
 
 import com.technological_cities.cities_of_technologies.item.Basic_item;
 import com.technological_cities.cities_of_technologies.technological_cities;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -25,7 +27,7 @@ public class Basic_block {
 
     //stack de block
     public static final RegistryObject<Block> LEAD_ORE = registriesBlock("lead_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(3.0F, 6.0F).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
     //fin stak de block
 
 

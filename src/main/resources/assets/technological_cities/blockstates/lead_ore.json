@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "technological_cities:block/tellurium_block"
+      "model": "technological_cities:block/lead_ore"
     }
   }
 }
