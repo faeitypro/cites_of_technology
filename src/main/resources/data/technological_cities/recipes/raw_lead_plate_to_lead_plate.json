@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "technological_cities:raw_lead_plate"
+  },
+  "result": "technological_cities:reinforced_lead_plate"
+}

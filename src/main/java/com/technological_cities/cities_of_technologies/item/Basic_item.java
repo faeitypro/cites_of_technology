@@ -22,7 +22,7 @@ public class Basic_item {
     public static final RegistryObject<Item> lead_Ingot = ITEMS.register("lead_ingot", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Raw_Lead_Plate = ITEMS.register("raw_lead_plate", () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> Reinforced_Lead_Plate = ITEMS.register("reinforced_lead_plate", () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> Armored_Lead_Safe = ITEMS.register("armored_lead_safe", () -> new Item(new Item.Properties().stacksTo(1).defaultDurability(0).durability(256)));
+    public static final RegistryObject<Item> Armored_Lead_Safe = ITEMS.register("armored_lead_safe", () -> new Item(new Item.Properties().stacksTo(1)));
     //fin stack d'item
 
     public static void register(IEventBus eventBus){
