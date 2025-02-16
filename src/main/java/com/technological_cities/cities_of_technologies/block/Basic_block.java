@@ -28,6 +28,8 @@ public class Basic_block {
     //stack de block
     public static final RegistryObject<Block> LEAD_ORE = registriesBlock("lead_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(3.0F, 6.0F).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+    public static final RegistryObject<Block> LEAD_BLOCK = registriesBlock("lead_block",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE).strength(3.0F, 6.0F).requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
     //fin stak de block
 
 
