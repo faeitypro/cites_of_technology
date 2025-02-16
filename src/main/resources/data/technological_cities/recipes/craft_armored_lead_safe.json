@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#S#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "technological_cities:reinforced_lead_plate"
+    },
+    "S": {
+      "item": "minecraft:chest"
+    }
+  },
+  "result": {
+    "item": "technological_cities:armored_lead_safe"
+  }
+}

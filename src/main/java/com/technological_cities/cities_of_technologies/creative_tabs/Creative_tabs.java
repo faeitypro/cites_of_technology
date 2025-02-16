@@ -26,7 +26,7 @@ public class Creative_tabs {
                         p_259752_.accept(Basic_item.Raw_lead.get());
                         p_259752_.accept(Basic_item.lead_Ingot.get());
                         p_259752_.accept(Basic_item.Raw_Lead_Plate.get());
-                        p_259752_.accept(Basic_item.Renforced_Lead_Plate.get());
+                        p_259752_.accept(Basic_item.Reinforced_Lead_Plate.get());
                         p_259752_.accept(Basic_item.Armored_Lead_Safe.get());
 
 

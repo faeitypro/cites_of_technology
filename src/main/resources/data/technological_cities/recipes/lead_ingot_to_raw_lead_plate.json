@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "technological_cities:lead_ingot"
+    }
+  },
+  "result": {
+    "item": "technological_cities:raw_lead_plate"
+  }
+}
